@@ -2,44 +2,33 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
+    android:id="@+id/activity_second"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#fbebab"
     android:paddingLeft="16dp"
     android:paddingTop="16dp"
     android:paddingRight="16dp"
     android:paddingBottom="16dp"
-    tools:context=".MainActivity">
+    tools:context=".Second">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="Explicit Intent"
-        android:textSize="24sp" />
+        android:text="Second Activity"
+        android:textSize="36sp" />
 
-    <EditText
-        android:id="@+id/edit1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="32dp"
-        android:ems="10"
-        android:hint="Enter your Data"
-        android:inputType="textPersonName" />
-
-    <Button
-        android:id="@+id/button"
+    <TextView
+        android:id="@+id/result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/edit1"
+        android:layout_below="@+id/textView2"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"
-        android:onClick="doSomething"
-        android:text="Next" />
-
+        android:layout_marginTop="64dp"
+        android:textColor="#f44545"
+        android:textSize="30sp" />
 
 </RelativeLayout>
